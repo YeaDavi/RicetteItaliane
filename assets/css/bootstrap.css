@@ -55,11 +55,19 @@ div a:hover {
   transform: translateY(-50%);
   text-align: center;
   color: #ffffff;
+  font-weight: 700;
 }
 
-.imgContainer img {
-  filter: brightness(50%);
-
+.imgContainer::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .sideImg img {
