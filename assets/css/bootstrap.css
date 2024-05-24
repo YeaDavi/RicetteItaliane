@@ -27,7 +27,10 @@ div a:hover {
 }
 
 .col-md-3 img {
- width: 100%;
+  margin-bottom: 15px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .col-md-3 p {
